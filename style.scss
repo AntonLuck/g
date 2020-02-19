@@ -1,0 +1,25 @@
+.wraper{
+    width:500px;
+    height:500px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 29%, rgba(253,187,45,1) 100%);
+    margin:0 auto;
+}
+img{
+    width:500px;height:500px;
+}
+.image_show{
+    display: block;
+    animation: slow_hide 5s linear forwards;
+}
+@keyframes slow_hide{
+    0%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+}
+.image{
+    display: none;
+}
